@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html 
+sidebar: sidebar 
+keywords: view, cluster security status, svm security status, volume encryption status 
+summary: 'La pagina Security (sicurezza) mostra lo stato di sicurezza di alto livello per tutti i cluster e lo stato di sicurezza dettagliato per i singoli cluster. Lo stato dettagliato del cluster include la conformità del cluster, la conformità SVM e la conformità alla crittografia dei volumi.' 
+---
+= Visualizzazione dettagliata dello stato di sicurezza per cluster e VM di storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La pagina Security (sicurezza) mostra lo stato di sicurezza di alto livello per tutti i cluster e lo stato di sicurezza dettagliato per i singoli cluster.
+
+In qualità di amministratore di sistema, è possibile utilizzare la pagina *sicurezza* per ottenere visibilità sul livello di sicurezza dei cluster ONTAP e delle VM di storage a livello di data center e sito.
+
+In base ai parametri definiti, è possibile raccogliere e analizzare le informazioni per rilevare comportamenti sospetti o modifiche di sistema non autorizzate sui cluster monitorati e sulle VM di storage.
+
+Lo stato dettagliato del cluster include la conformità del cluster, la conformità SVM e la conformità alla crittografia dei volumi.
+
+La pagina Cluster / Security Details (Dettagli cluster/sicurezza) fornisce una vista predefinita della conformità di sicurezza dei cluster controllando i parametri di sicurezza, come Global FIPS, Telnet, impostazioni SSH non sicure, banner di accesso, protocollo temporale di rete, Trasporto HTTPS AutoSupport e amministratori predefiniti.
+
+La pagina Storage VM/ Security Details fornisce una vista predefinita della conformità di sicurezza delle VM di storage controllando i parametri di sicurezza, come le VM di storage, il cluster, il banner di accesso, il registro di audit e le impostazioni SSH non sicure.
+
+È possibile generare, pianificare e scaricare report sulla conformità della sicurezza anche dalle pagine dei dettagli di Cluster e Storage VM.
+
+Dal pannello di protezione*, fare clic su *View Reports* (Visualizza report) nelle schede *Cluster Compliance* e *Storage VMS Compliance*.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *Dashboard*.
+. A seconda che si desideri visualizzare lo stato di sicurezza per tutti i cluster monitorati o per un singolo cluster, selezionare *tutti i cluster* o selezionare un singolo cluster dal menu a discesa.
+. Fare clic sulla freccia destra nel pannello *Security*.
++
+La pagina Security (sicurezza) visualizza le seguenti informazioni:
+
++
+** lo stato di sicurezza del cluster (numero di cluster conformi o non conformi)
+** Lo stato di sicurezza SVM (numero di SVM conformi o non conformi)
+** lo stato di crittografia del volume (numero di volumi crittografati o non crittografati)
+** i metodi di autenticazione del cluster utilizzati su ciascun cluster
+
+
+. Fare riferimento a. http://www.netapp.com/us/media/tr-4569.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"] Per istruzioni su come rendere tutti i cluster, le SVM e i volumi conformi alle raccomandazioni di sicurezza NetApp.
+

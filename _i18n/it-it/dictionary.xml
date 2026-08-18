@@ -2627,7 +2627,6 @@
   <block id="c9ff37030a40a51615a055f7a8a42953" category="paragraph">Questi eventi di Active IQ non si sovrappongono agli eventi di Unified Manager esistenti e identificano incidenti o rischi relativi a configurazione del sistema, cablaggio, Best practice e problemi di disponibilità.</block>
   <block id="e7745c1edfe8d7e95ae06514b578a975" category="paragraph">Per ulteriori informazioni sull'attivazione degli eventi della piattaforma, vedere <block ref="8658b0fde93c687ddd323db3f722b419" category="inline-link-macro-rx"></block>Per ulteriori informazioni sul caricamento del file di regole, vedere <block ref="b01374e7e4b241354108fd5f79d4fe7d" category="inline-link-macro-rx"></block></block>
   <block id="9b2dd5f36ee111b85cbdd29e104e3e55" category="inline-link">NetApp Active IQ</block>
-  <block id="9d704a09e3781ec3b4883efbf66a03bc" category="paragraph">NetApp Active IQ è un servizio basato sul cloud che offre analisi predittive e supporto proattivo per ottimizzare le operazioni del sistema storage nel cloud ibrido NetApp. Vedere<block ref="598c2869fc03de80441fdb1c505b1b08" category="inline-link-rx"></block> per ulteriori informazioni.</block>
   <block id="eaa8fc193b8152d81fd63e1e8f241fa6" category="summary">È possibile visualizzare gli eventi non assegnati e assegnarli a un utente in grado di risolverli.</block>
   <block id="4f9e365c3f9ef0000db43f3042bc63e3" category="doc">Visualizzazione di eventi non assegnati</block>
   <block id="ed527e5b5f898982dcd0f2d921180c01" category="list-text">Nel riquadro *Filters*, selezionare l'opzione di filtro *Unassigned* nell'area *Assigned to*.</block>
@@ -4016,7 +4015,6 @@
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">Su una macchina virtuale, aumentare le dimensioni di una partizione del disco.</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">Seguire la procedura descritta nell'argomento VMware:</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">Aumento delle dimensioni di una partizione del disco</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="03d2af3407e8c97b7de22debe99e225b" category="summary">La pagina HTTPS Certificate (certificato HTTPS) consente di visualizzare il certificato di protezione corrente, scaricare una richiesta di firma del certificato, generare un nuovo certificato HTTPS o installare un nuovo certificato HTTPS.</block>
   <block id="13d1caaed3e6c81f8257c80ba2a39c92" category="doc">Pagina del certificato HTTPS</block>
   <block id="d7b0d1b6d6ad1c86e0f50200177ed636" category="paragraph">Se non è stato generato un nuovo certificato HTTPS, il certificato visualizzato in questa pagina corrisponde al certificato generato durante l'installazione.</block>
@@ -5409,8 +5407,6 @@
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">È possibile configurare una connessione sicura tra OnCommand Workflow Automation (Wfa) e Unified Manager. La connessione all'automazione del flusso di lavoro consente di utilizzare funzionalità di protezione come i flussi di lavoro di configurazione di SnapMirror e SnapVault, oltre a comandi per la gestione delle relazioni di SnapMirror.</block>
   <block id="d59db8b6df454b51e95542f8e00577c1" category="doc">Configurazione di una connessione tra Workflow Automation e Unified Manager</block>
   <block id="7d4c7aacafff21639e5db97e94a235a5" category="list-text">La versione installata di Workflow Automation deve essere 5.1 o superiore.</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">PACCHETTO WFA per la gestione di ONTAP</block>
-  <block id="a651f3180f355ff52e480a3a6a43c122" category="paragraph">Il "`pacchetto WFA per la gestione di Clustered Data ONTAP`" è incluso in WFA 5.1, pertanto non è necessario scaricare questo pacchetto dal NetAppStorage Automation Store e installarlo separatamente sul server WFA come richiesto in passato. <block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">Per supportare le connessioni WFA e Unified Manager, è necessario disporre del nome dell'utente del database creato in Unified Manager.</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">A questo utente del database deve essere stato assegnato il ruolo utente Integration Schema.</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">È necessario assegnare il ruolo di amministratore o di architetto nell'automazione del flusso di lavoro.</block>
@@ -7398,7 +7394,6 @@
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">Nella console di manutenzione, selezionare *Configurazione del sistema* &gt; *riavvio della macchina virtuale*.</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">Avviare l'interfaccia utente Web di Unified Manager dal browser ed effettuare l'accesso.</block>
   <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">Guida ai cmdlet di VMware vSphere PowerCLI: Restart-VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="07b888beb5f74fad923ceb6fd324799b" category="summary">Prima di installare e configurare Unified Manager, è necessario disporre di informazioni specifiche sull'ambiente in uso. È possibile registrare le informazioni nel foglio di lavoro.</block>
   <block id="2b104ccf2842f00a8a4ac219a91dec80" category="doc">Completamento del foglio di lavoro</block>
   <block id="cb2410506c9a867eca80a50038aae5bf" category="section-title">Informazioni sull'installazione di Unified Manager</block>
@@ -10633,9 +10628,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">Annotazioni per gli oggetti di storage</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">Creazione di report e gestione di informazioni sugli oggetti storage come capacità fisica e logica, utilizzo, risparmi di spazio, performance ed eventi correlati</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">Integrazione con OnCommand Workflow Automation per l'esecuzione dei flussi di lavoro</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">Il negozio di automazione dello storage contiene pacchetti di workflow automatizzati per lo storage certificati da NetApp sviluppati per l'utilizzo con OnCommand Workflow Automation (WFA). È possibile scaricare i pacchetti e importarli in WFA per eseguirli. I flussi di lavoro automatizzati sono disponibili qui:</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Storage Automation Store</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="93afe6d7c422425dde612080439dc433" category="summary">È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage.</block>
   <block id="d13e68886332f083054942c5d93f308f" category="doc">Esecuzione di test dello script</block>
   <block id="3566980487aa7d04ffe8ae5b9d7fccc3" category="list-text">È necessario aver caricato uno script nel formato di file supportato in Unified Manager.</block>
@@ -11539,10 +11531,16 @@
   <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">Per consigli e risoluzioni dettagliate, vedere<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> (TR-4569).</block>
   <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">Per informazioni dettagliate, vedere gli argomenti relativi alle categorie di conformità e<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> .</block>
   <block id="356446276fe0b8850474bcda6d3dbdb0" category="list-text">Fare riferimento alla<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> per istruzioni su come rendere tutti cluster, SVM e volumi conformi alle raccomandazioni di sicurezza NetApp.</block>
-  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
-  <block id="a4ab34d53d339a6a32e7ed29831831a1" category="paragraph">Inoltre, esiste un limite al numero di nodi che una singola istanza di Unified Manager può monitorare prima di installare una seconda istanza di Unified Manager. Per ulteriori informazioni, vedere <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block></block>
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="293b7a0c506af87a1e3b4fb005b0232e" category="paragraph">Durante la visualizzazione di tutti i cluster, questo pannello visualizza il numero di cluster conformi e non conformi, il numero di VM di storage conformi e non conformi e il numero di volumi crittografati e non crittografati. La conformità è basata su<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>. Fare clic sulla freccia destra nella parte superiore del pannello per visualizzare i dettagli di sicurezza per tutti i cluster nella pagina Security (sicurezza).</block>
   <block id="1daba90506b1f94ee6106dc86aa53476" category="paragraph">Se un'operazione di ripristino tra cluster Cloud Volumes ONTAP HA non riesce con un errore NDMP, potrebbe essere necessario aggiungere una route AWS esplicita nel cluster di destinazione in modo che la destinazione possa comunicare con il LIF di gestione del cluster del sistema di origine. Per eseguire questa fase di configurazione, utilizzare la console NetApp .</block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Download WFA</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">Il "pacchetto WFA per la gestione di Clustered Data ONTAP" è incluso in WFA 5.1.1P6, quindi non è necessario scaricare questo pacchetto dallo NetAppStorage Automation Store e installarlo separatamente sul server WFA come richiesto in passato.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="2adbe8bdce2f61c208adbcdcc37e0d1e" category="paragraph">NetApp Active IQ è un servizio basato su cloud che offre analisi predittive e supporto proattivo per ottimizzare le operazioni del sistema storage nel NetApp hybrid cloud. Vedi<block ref="0e9077c60daec97818e84f64654ad149" category="inline-link-rx"></block> per ulteriori informazioni.</block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
+  <block id="34d3c2d39d6d85670998be5649271fee" category="paragraph"><block ref="34d3c2d39d6d85670998be5649271fee" category="inline-link-rx"></block></block>
+  <block id="faa020109dd5b91f15cebcbf51c4fcdd" category="paragraph">Inoltre, esiste un limite al numero di nodi che una singola istanza di Unified Manager può monitorare prima che tu debba installare una seconda istanza di Unified Manager. Per ulteriori informazioni, vedi <block ref="2c5cc47a014185f968ab45db0b0eacd1" category="inline-link-macro-rx"></block></block>
+  <block id="6b73b07c381aacbfd407e4fbba16aeae" category="paragraph"><block ref="21ab7f82161af0ecb655e59195e4d815" category="inline-link-rx"></block>.</block>
 </blocks>

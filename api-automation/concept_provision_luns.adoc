@@ -180,6 +180,7 @@ Wombat: Estratto n. 3
 
 
 
+[[troubleshooting-steps-for-failure-in-lun-creation-or-mapping]]
 == Procedure per la risoluzione dei problemi relativi a errori nella creazione o mappatura del LUN
 
 Al completamento di questo flusso di lavoro, potrebbe ancora verificarsi un errore nella creazione del LUN. Anche se il LUN viene creato correttamente, la mappatura del LUN con l'igroup potrebbe non riuscire a causa di una non disponibilità di UN LIF SAN o di un endpoint di accesso sul nodo in cui si crea il LUN. In caso di guasto, viene visualizzato il seguente messaggio:

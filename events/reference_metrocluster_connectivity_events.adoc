@@ -15,6 +15,7 @@ Gli eventi di connettività forniscono informazioni sulla connettività tra i co
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

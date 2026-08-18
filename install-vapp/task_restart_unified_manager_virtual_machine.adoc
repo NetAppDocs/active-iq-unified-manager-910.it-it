@@ -28,4 +28,4 @@ summary: 'È possibile riavviare la macchina virtuale (VM) di Unified Manager da
 
 *Informazioni correlate*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["Guida ai cmdlet di VMware vSphere PowerCLI: Restart-VMGuest"]
+https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest/["Guida ai cmdlet di VMware vSphere PowerCLI: Restart-VMGuest"^].

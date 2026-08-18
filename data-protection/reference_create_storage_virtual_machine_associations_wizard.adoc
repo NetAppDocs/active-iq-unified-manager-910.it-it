@@ -15,6 +15,7 @@ La procedura guidata Crea peer di macchine virtuali di storage consente di esegu
 
 
 
+[[select-source]]
 == Selezionare Source (origine)
 
 Il pannello Select Source (Seleziona origine) consente di selezionare la VM di origine, o la VM di storage primaria, nel peer della VM di storage.
@@ -61,12 +62,14 @@ Specifica una relazione SnapVault come tipo di peer. La selezione di questa opzi
 
 
 
+[[select-protection-destinations]]
 == Selezionare Destinazioni di protezione
 
 Il pannello Select Protection Destinations della procedura guidata Create Storage Virtual Machine Peers consente di selezionare dove copiare o replicare i dati. È possibile creare un peer su una sola VM di storage di destinazione per cluster.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

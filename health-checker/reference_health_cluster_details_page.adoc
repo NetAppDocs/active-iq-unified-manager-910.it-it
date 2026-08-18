@@ -17,6 +17,7 @@ Lo stato accanto al nome del cluster, ad esempio (buona), rappresenta lo stato d
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti attività per il cluster selezionato:
@@ -46,6 +47,7 @@ Consente di accedere alla vista Health: Tutti i cluster.
 
 
 
+[[health-tab]]
 == Scheda Health (Salute)
 
 Visualizza informazioni dettagliate sui problemi di disponibilità dei dati e capacità dei dati di vari oggetti cluster, ad esempio nodi, SVM e aggregati. I problemi di disponibilità sono correlati alla funzionalità di erogazione dei dati degli oggetti del cluster. I problemi di capacità sono legati alla capacità di memorizzazione dei dati degli oggetti del cluster.
@@ -70,6 +72,7 @@ Visualizza graficamente il numero totale di oggetti, inclusi gli oggetti che pre
 
 
 
+[[capacity-tab]]
 == Scheda capacità
 
 Visualizza informazioni dettagliate sulla capacità del cluster selezionato.
@@ -209,6 +212,7 @@ Visualizza il numero stimato di giorni rimanenti prima che l'aggregato raggiunga
 
 
 
+[[configuration-tab]]
 == Scheda Configuration (Configurazione)
 
 Visualizza i dettagli sul cluster selezionato, ad esempio indirizzo IP, contatto e posizione:
@@ -358,6 +362,7 @@ Elenca i nomi dei Tier cloud a cui è connesso il cluster. Elenca inoltre il tip
 
 
 
+[[metrocluster-connectivity-tab]]
 == Scheda connettività MetroCluster
 
 Visualizza i problemi e lo stato di connettività dei componenti del cluster nella configurazione MetroCluster. Un cluster viene visualizzato in una casella rossa quando il partner per il disaster recovery del cluster presenta problemi.
@@ -382,6 +387,7 @@ Se lo stato del problema di connettività tra i componenti è determinato da pi�
 
 
 
+[[metrocluster-replication-tab]]
 == Scheda Replica MetroCluster
 
 Visualizza lo stato dei dati da replicare. È possibile utilizzare la scheda Replica MetroCluster per garantire la protezione dei dati eseguendo il mirroring sincrono dei dati con i cluster già in peering. Un cluster viene visualizzato in una casella rossa quando il partner per il disaster recovery del cluster presenta problemi.
@@ -397,6 +403,7 @@ Nella scheda Replica MetroCluster, il cluster locale fornisce la rappresentazion
 
 
 
+[[network-interfaces-tab]]
 == Scheda Network Interfaces (interfacce di rete)
 
 Visualizza i dettagli di tutte le LIF non di dati create sul cluster selezionato.
@@ -448,6 +455,7 @@ Visualizza il nome del gruppo di failover.
 
 
 
+[[nodes-tab]]
 == Scheda nodi
 
 Visualizza le informazioni sui nodi nel cluster selezionato. È possibile visualizzare informazioni dettagliate sulle coppie ha, sugli shelf di dischi e sulle porte:
@@ -578,6 +586,7 @@ Visualizza lo stato corrente della porta. Gli stati possibili sono Up (su), Down
 
 
 
+[[disks-tab]]
 == Scheda Disks (dischi)
 
 Visualizza i dettagli relativi ai dischi nel cluster selezionato. È possibile visualizzare informazioni relative al disco, ad esempio il numero di dischi utilizzati, dischi di riserva, dischi rotti e dischi non assegnati. È inoltre possibile visualizzare altri dettagli, ad esempio il nome del disco, il tipo di disco e il nodo proprietario del disco.
@@ -681,12 +690,14 @@ Visualizza l'ID dell'alloggiamento in cui si trova il disco.
 
 
 
+[[related-annotations-pane]]
 == Riquadro delle annotazioni correlate
 
 Consente di visualizzare i dettagli delle annotazioni associati al cluster selezionato. I dettagli includono il nome dell'annotazione e i valori dell'annotazione applicati al cluster. È inoltre possibile rimuovere le annotazioni manuali dal pannello Annotazioni correlate.
 
 
 
+[[related-devices-pane]]
 == Pannello Related Devices (dispositivi correlati)
 
 Consente di visualizzare i dettagli dei dispositivi associati al cluster selezionato.
@@ -717,12 +728,14 @@ Visualizza il numero, la capacità e lo stato di salute degli aggregati che appa
 
 
 
+[[related-groups-pane]]
 == Pannello gruppi correlati
 
 Consente di visualizzare l'elenco dei gruppi che include il cluster selezionato.
 
 
 
+[[related-alerts-pane]]
 == Pannello Avvisi correlati
 
 Il riquadro Related Alerts (Avvisi correlati) consente di visualizzare l'elenco degli avvisi per il cluster selezionato. È inoltre possibile aggiungere un avviso facendo clic sul collegamento Add Alert (Aggiungi avviso) o modificarne uno esistente facendo clic sul nome dell'avviso.

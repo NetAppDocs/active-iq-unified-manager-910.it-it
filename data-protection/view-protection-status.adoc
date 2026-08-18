@@ -27,6 +27,7 @@ Se si seleziona un singolo cluster nella dashboard, in questa pagina vengono vis
 
 
 
+[[data-protection-page]]
 == Pagina Data Protection
 
 La pagina Data Protection (protezione dati) visualizza i seguenti pannelli per i volumi protetti per tutti i cluster.
